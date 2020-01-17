@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    #main-container {
+        width: 100%;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #main-container {
+        width: 50%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+.w-icon {
+    font-size: 4.5em;
+    color: #db3fe2;
+}
+
+.w-h1 {
+    font-size: 5em;
+}
+
+.w-p {
+    font-size: 5em;
+    margin: 20px;
+}
+
+.w-error {
+    color: darkred;
+}
