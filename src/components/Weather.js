@@ -14,7 +14,7 @@ import { useFetchWeather } from '../customHooks';
 
 const Weather = () => {
     const [inputValue, setInputValue] = useState('');
-    const [searchValue, setSearchValue] = useState('');
+    const [searchValue, setSearchValue] = useState('Alajuela');
 
     const {data, error, loading } = useFetchWeather(
         '/.netlify/functions/getWeather',
