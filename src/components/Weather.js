@@ -31,12 +31,12 @@ const Weather = () => {
                             fluid
                             action="Search"
                             autoFocus
-                            placeholder="e.g. Costa Rica"
+                            placeholder="e.g. Alajuela"
                             onChange={e => setInputValue(e.target.value)}
                             value={inputValue}
                             size="large"
                         />
-                        {error && <p className="w-error">Please enter a valid city name. (e.g. New York)</p>}
+                        {error && <p className="w-error">Please enter a valid city name. (e.g. San Jose)</p>}
                     </Form>
                 </Segment>
                 <Segment textAlign="center">
